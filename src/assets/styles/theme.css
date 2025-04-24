@@ -1,0 +1,24 @@
+/* 
+  MAIN COLOR: #087F5B
+  TEXT COLOR: #343A40
+*/
+
+:root {
+  font-family: Inter, sans-serif;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Colors */
+  --main-color: #087f5b;
+  --main-color-light-1: #099268;
+  --main-color-light-2: #e6fcf5;
+  --main-color-light-3: #c3fae8;
+
+  --text-color: #343a40;
+  --text-color-light-1: #495057;
+
+  --white-color: #fff;
+}

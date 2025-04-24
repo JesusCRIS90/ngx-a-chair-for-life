@@ -1,0 +1,15 @@
+:host {
+  display: block;
+}
+
+.chair-section{
+
+  margin-bottom: 48px;
+  
+  .title{
+      margin-bottom: 48px;
+      font-size: 36px;
+      letter-spacing: -1px;
+  }
+
+}

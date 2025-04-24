@@ -1,0 +1,39 @@
+<figure class="chair-card">
+    
+    <bee-image [imageSrc]="data().img" [userClass]="'image'"/>
+    
+    <div class="chair-content">
+    
+        <bee-title [userClass]="'title'">
+            {{ data().title }}
+        </bee-title>
+    
+        <ul class="features">
+    
+            <li>
+                <bee-svg-icon [refName]="'sparkle'" [userClass]="'icon'"/>
+                <span>{{ data().features[0] }}</span>
+            </li>
+            <li>
+                <bee-svg-icon [refName]="'clock'"  [userClass]="'icon'"/>
+                <span>{{ data().features[1] }}</span>
+            </li>
+            <li>
+                <bee-svg-icon [refName]="'globe'"  [userClass]="'icon'"/>
+                <span>{{ data().features[2] }}</span>
+            </li>
+            <li>
+                <bee-svg-icon [refName]="'cube'"  [userClass]="'icon'"/>
+                <span>{{ data().features[3] }}</span>
+            </li>
+    
+        </ul>
+
+        <div class='price'>
+            <strong>{{ `${data().price}$` }}</strong>
+            <a href="#" class="btn">Add to cart</a>
+        </div>
+
+    </div>
+
+</figure>

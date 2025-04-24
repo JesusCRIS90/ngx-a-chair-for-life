@@ -1,0 +1,25 @@
+<header>
+    
+    <bee-grid-1d-layout [inputGridDistribution]="'repeat(2, 1fr)'" [gap]="80" [userClass]="'header-section'">
+        
+        <div class="header-text-box">
+            
+            <bee-title class="title" [typo_level]="TYPO_LVL.LEVEL_1">
+                We design and build better chairs, for a better life
+            </bee-title>
+            
+            <bee-paragraph [userClass]="'paragraph'">
+                In a small shop in the heart of Lisbon, we spend our days
+                relentlessly perfecting the chair. The result is a perfect blend of
+                beauty and comfort, that will have a lasting impact on your health.
+            </bee-paragraph>
+            
+            <a class="btn" href="#">Shop chairs</a>
+        
+        </div>
+        
+        <bee-image [imageSrc]="img_src()" [userClass]="'header-image'"/>
+    
+    </bee-grid-1d-layout>
+
+</header>

@@ -1,0 +1,23 @@
+:host {
+  display: block;
+}
+
+.feature {
+
+  .title {
+    margin-bottom: 16px;
+    font-size: 20px;
+  }
+  
+  .icon {
+    stroke: var(--main-color);
+    width: 32px;
+    height: auto;
+    margin-bottom: 18px;
+  }
+
+  .text {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+}

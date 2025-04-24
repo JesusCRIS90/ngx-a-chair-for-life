@@ -1,0 +1,13 @@
+<section class="chair-section">
+
+    <bee-title [userClass]="'title'">
+        Our bestselling chairs
+    </bee-title>
+
+    <bee-grid-1d-layout [inputGridDistribution]="'repeat(3, 1fr)'" [gap]="80">
+        <app-chair [data]="items()[0]" />
+        <app-chair [data]="items()[1]" />
+        <app-chair [data]="items()[2]" />
+    </bee-grid-1d-layout>
+
+</section>

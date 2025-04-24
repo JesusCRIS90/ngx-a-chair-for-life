@@ -1,0 +1,10 @@
+:host {
+  display: block;
+}
+
+.footer {
+  margin-bottom: 48px;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--text-color-light-1);
+}

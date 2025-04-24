@@ -1,0 +1,13 @@
+<section class="feature-section">
+    
+    <bee-title [typo_level]="TYPO_LVL.LEVEL_2" [userClass]="'title'">
+        What makes our chairs special
+    </bee-title>
+    
+    <bee-grid-1d-layout [inputGridDistribution]="'repeat(3, 1fr)'" [gap]="80">
+        <app-feature [featureData]="featuresList()[0]"/>
+        <app-feature [featureData]="featuresList()[1]"/>
+        <app-feature [featureData]="featuresList()[2]"/>
+    </bee-grid-1d-layout>
+
+</section>

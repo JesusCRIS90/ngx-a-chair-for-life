@@ -1,0 +1,5 @@
+export * from "./header/header.component"
+export * from "./footer/footer.component"
+export * from "./features/features.component"
+export * from "./chairs/chairs.component"
+export * from "./testimonials/testimonials.component"
