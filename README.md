@@ -10,9 +10,6 @@ The goal is to showcase chairs in a fun, minimal, and structured way while exper
 
 If you’re curious about the supporting library, you can find it published under the name **@beexy** (A personal component library under developing. News Soon).
 
-<br>
 🔗 Live Demo: <a href="https://jesuscris90.github.io/ngx-a-chair-for-life/" target="_blank">Check it out here</a>  
-
-<br>
 
 Feel free to explore, contribute, or suggest improvements! 🚀
