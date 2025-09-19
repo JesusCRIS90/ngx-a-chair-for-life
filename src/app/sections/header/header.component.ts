@@ -11,7 +11,9 @@ import {
   TYPOGRAPHY_LEVEL as TYPO_LVL
 } from "@beexy/ngx-components"
 
-const img_url = "assets/hero.jpg"
+// const img_url = "assets/hero.jpg"
+const img_url = "https://raw.githubusercontent.com/JesusCRIS90/jc-risquez-cdn/main/a-chair-for-life/images/hero.jpg"
+
 
 @Component({
   selector: 'sec-header',

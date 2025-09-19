@@ -11,7 +11,9 @@ import {
   GridLayout1DComponent as Grid1D
 } from "@beexy/ngx-layouts"
 
-const img_url = "assets/customers.jpg"
+// const img_url = "assets/customers.jpg"
+const img_url = "https://raw.githubusercontent.com/JesusCRIS90/jc-risquez-cdn/main/a-chair-for-life/images/customers.jpg"
+
 
 @Component({
   selector: 'sec-testimonials',

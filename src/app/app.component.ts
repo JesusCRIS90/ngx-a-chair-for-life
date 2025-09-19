@@ -11,9 +11,8 @@ import {
   FooterSection,
 } from "./sections"
 
-
-
-const PATH = 'icons-sheet.svg'
+// const PATH = 'icons-sheet.svg'
+const PATH = 'https://raw.githubusercontent.com/JesusCRIS90/jc-risquez-cdn/refs/heads/main/a-chair-for-life/icons-sheet.svg'
 
 @Component({
   selector: 'app-root',
@@ -29,7 +28,7 @@ const PATH = 'icons-sheet.svg'
   styleUrl: './app.component.css'
 })
 export class AppComponent implements OnInit {
-  title = 'spa-1';
+  title = 'A Chair for Life';
 
 
   ngOnInit(): void {

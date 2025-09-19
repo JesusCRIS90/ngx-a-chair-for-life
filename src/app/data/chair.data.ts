@@ -7,7 +7,7 @@ export interface ChairItem {
 
 export const chairData: ChairItem[] = [
     {
-        img: "./assets/chair-1.jpg",
+        img: "https://raw.githubusercontent.com/JesusCRIS90/jc-risquez-cdn/main/a-chair-for-life/images/chair-1.jpg",
         title: "Science meets design",
         features: [
             "Leisure and relaxing",
@@ -18,7 +18,7 @@ export const chairData: ChairItem[] = [
         price: 250,
     },
     {
-        img: "./assets/chair-2.jpg",
+        img: "https://raw.githubusercontent.com/JesusCRIS90/jc-risquez-cdn/main/a-chair-for-life/images/chair-2.jpg",
         title: "The Worker Bee",
         features: [
             "Work",
@@ -29,7 +29,7 @@ export const chairData: ChairItem[] = [
         price: 525,
     },
     {
-        img: "./assets/chair-3.jpg",
+        img: "https://raw.githubusercontent.com/JesusCRIS90/jc-risquez-cdn/main/a-chair-for-life/images/chair-3.jpg",
         title: "The Chair 4/2",
         features: [
             "Leisure and relaxing",
